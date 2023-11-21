@@ -1,0 +1,81 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --footer-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* навігація сайту */
+
+.logo {
+  color: #000000;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.logo-span {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.adress a:hover,
+.adress a:focus {
+  color: var(--accent-color);
+}
+
+/* секція герой */
+
+/* .hero-title { 
+   color: #ffffff; 
+ } */
+
+/* секція */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* переваги */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* команда */
+.team .title {
+  color: var(--title-text-color);
+}
+
+/* button */
+
+.button {
+  color: rgba(0, 0, 0, 0.15);
+  background-color: ;
+}
+
+/* footer */
+
+/* секція напрямки діяльності*/
+
+/* другорядний колір фону  #F5F4FA */
