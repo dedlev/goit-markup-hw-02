@@ -60,7 +60,7 @@ body {
 }
 
 .button {
-  background-color: var(--primary-white-color);
+  background-color: #f5f4fa;
   color: var(--primary-text-color);
 }
 
@@ -107,5 +107,3 @@ body {
 }
 
 /* секція напрямки діяльності*/
-
-/* другорядний колір фону  #F5F4FA */
