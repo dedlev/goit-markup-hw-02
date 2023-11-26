@@ -122,6 +122,8 @@ body {
   line-height: 1.87;
   letter-spacing: 0.96px;
 
+  cursor: pointer;
+
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
@@ -225,6 +227,8 @@ body {
 
   line-height: 1.62;
   letter-spacing: 0.48px;
+
+  cursor: pointer;
 
   background-color: #f5f4fa;
   color: var(--title-text-color);
