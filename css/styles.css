@@ -99,8 +99,14 @@ body {
 
 /* секція герой */
 
-.hero-title {
+.hero {
   text-align: center;
+
+  color: var(--primary-white-color);
+  background-color: #2f303a;
+}
+
+.hero-title {
   font-size: 44px;
   font-weight: 900;
 
@@ -108,14 +114,10 @@ body {
   letter-spacing: 2.64px;
 
   text-transform: uppercase;
-
-  color: var(--primary-white-color);
-  background-color: #2f303a;
 }
 
 .hero-btn {
   font-family: inherit;
-  text-align: center;
   font-size: 16px;
   font-weight: 700;
 
@@ -209,7 +211,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.42px;
 
-  color: var(--primary-white-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer .link:hover,
